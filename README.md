@@ -94,7 +94,7 @@ ___
 
 
 
-________________________________________________________________________________________________________ Ir para [Lógica de Programação com Typescript](https://github.com/AlineAlmeida85/Curso-Full-Stack-FIAP-Avanade/tree/main/AoVivo/1%20-%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20Typescript)
+__________________________________________________________________________________________________________________ Ir para [Lógica de Programação com Typescript](https://github.com/AlineAlmeida85/Curso-Full-Stack-FIAP-Avanade/tree/main/AoVivo/1%20-%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20Typescript)
 
 
 
