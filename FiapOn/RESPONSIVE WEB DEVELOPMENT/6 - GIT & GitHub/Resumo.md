@@ -1,7 +1,12 @@
-# Sistema de Controle de Versão
+# GIT e GitHub
 
+## 1 - SISTEMA DE CONTROLE DE VERSÃO
 #### Ele vai permitir controlar alterações que ocorreram no decorrer de um tempo em um arquivo ou no projeto inteiro e isso vai facilitar quando precisarmos voltar trechos, ou saber quem fez aquela alteração, quando, porque e como fez, vai nos permitir também trabalhar em um grupo de desenvolvedores. Muitas vezes podemos ter na equipe até umas 10 pessoas trabalhando no mesmo projeto e, consequentemente no mesmo arquivo. E o sistema de controle de versão vai ter a inteligencia de saber juntar as alterações de cada desenvolvedor daquele arquivo. E quando todo mundo está colocando a mão no mesmo arquivo a chance de acontecer uma bobagem é gigantesca.
 
+<br/>
+
+
+## 2 - INSTALAÇÃO E CONFIGURAÇÃO DO GIT
 #### Agora que ja sabemos o que é o controlador de versões e pra que serve, vamos então utilizá-lo.
 
 #### Iniciando pela configuração do GIT:
@@ -29,8 +34,9 @@
   <img alt="foto" title="foto" src="./img/foto02.png"/>
 </p>
 
-## ESTADOS DOS ARQUIVOS E COMMITS
-
+<br/>
+    
+## 3 - ESTADOS DOS ARQUIVOS E COMMITS    
 #### Para iniciar um projeto usamos o comando:
 ```git
     git init
@@ -112,8 +118,8 @@
 
 #### Assim, então, nosso arquivo foi versionado.
 
-## NAVEGAÇÃO ENTRE AS VERSÕES
-
+## 4 - NAVEGAÇÃO ENTRE AS VERSÕES
+    
 #### Agora que ja sabemos criar as versões através dos comandos: 
 ```git
     git add
@@ -203,4 +209,165 @@
 ```git
     git status
 ```
-#### Veremos que não te mais nada para commitar. Agora vamos criar mais uma versão.
+#### Veremos que não te mais nada para commitar. Agora vamos criar mais uma versão. Crie um novo arquivo.
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto18.png"/>
+</p>
+
+#### No caso criei um documento com o nome de contato.txt. Agora vamos usar o comando:
+```git
+    git status
+```
+#### Para verificar e... :
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto19.png"/>
+</p>
+
+#### O Git ja reconheceu o novo arquivo. Agora vamos adicioná-lo:
+```git
+    git add contato.txt
+```
+#### Agora vamos ver o status:
+```git
+    git status
+```
+#### E...
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto20.png"/>
+</p>
+
+#### O Git ja está observando o arquivo novo, pois adicionamos ele á fila tremporária do Git. Agora vamos commitar o arquivo.
+```git
+    git commit -m "Criado arquivo para informações de contato"
+```
+#### E vamos observar...
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto21.png"/>
+</p>
+
+#### O arquivo novo foi commitado. Agora vamos usar o comando:
+```git
+    git log
+```
+#### E...
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto22.png"/>
+</p>
+
+#### Temos agora 3 commits, como foi realmente feito. Mas além de verificar os commits, podemos navegar por eles, ou entre eles. E para navegar entre os commits usamos o comando:
+```git
+    git checkout
+```
+#### Este comando navega entre commits, entre branches, entre versões... etc. Vamos pegar a hash de onde queremos ir. **A hash é o ID.** Não é necessário pegar a hash toda, podemos pegar somente uma parte dela, geralmente os 10 primeiros, vamos ver na prática com o segundo commit:
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto23.png"/>
+</p>
+
+#### Copiamos ele e 
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto24.png"/>
+</p>
+
+#### Colamos depois do comando **git checkout** e 
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto25.png"/>
+</p>
+
+#### Agora se eu digitar **git log**, eu só possuo os dois commits
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto26.png"/>
+</p>
+
+#### e porque? Por que os 3 commits estão na master e perceba na figura que não estamos mais na master... estamos na hash do commit e se voce olhar na pasta, voce notará que só existe apenas o arquivo anterior:
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto27.png"/>
+</p>
+
+#### porque dentro do commit que estamos só há este arquivo, o outro foi criado em outro commit e estamos numa versão antes. Se pegarmos o primeiro commit que criamos: 
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto28.png"/>
+</p>
+
+#### Vamos olhar agora a pasta:
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto29.png"/>
+</p>
+
+#### perceba que voltamos então ao arquivo vazio, antes de termos digitado algo dentro dele, agora se voltarmos para a master:
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto30.png"/>
+</p>
+
+#### Na pasta...
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto31.png"/>
+</p>
+
+#### Voltou a exibir os 3 arquivos, porque os arquivos estão na master.
+
+
+## 5 - DESFAZENDO AS ALTERAÇÕES
+
+#### Vamos supor que... voce tenha criadon um arquivo dentro do projeto errado, podemos deletá-lo usando o comando:
+```git
+  git clean -f
+```
+#### O parâmetro -f, é para forçar a limpeza dos arquivos que não foram versionados ainda. Mas esse comando só pode ser usado para arquivos que ainda não foram versionados.
+#### Para restaurar o arquivo para a ultima versão usamos o comando:
+```git
+  git reset --hard HEAD~0
+```
+#### Esse **~0** significa que estamos voltando para a versão anterior, mas podemos voltar para outras versões, é só alterar o 0 e trocar por outro número conforme a versão que queremos voltar, ou seja, o 0 volta pra última, o 1 voltará pra penúltimas e assim por diante. 
+
+## 6 - TRABALHANDO COM BRANCHES E TAGS
+#### Existe uma forma para não utilizarmos as hashs que são gigantes, para tornar os checkouts mais intuitivos e simples, podemos trabalhar com tags. Elas vão nos permitir nomear as hashes gigantes, então ao inves de fazer checkout com as hashes de 40 caracteres, podemos fazer um checkout para um nome mais sucinto, exemplo: v1, v2, v3.... Vamos ver na prática:
+
+### Val=mos navegar pelo histórico usando o comando:
+```git
+  git log
+```
+#### Observando as hashes gigantes, vamos dar nome a elas, consequentemente vamos nomear a ultima... porque é nela que estamos:
+```git
+  git tag v2
+```
+#### Se dermos o comando:
+```git
+  git log
+```
+#### Notaremos que o nome ja foi acrescentado.
+
+## 7 - MERGE
+
+#### É quando podemos mesclar branches diferentes.
+    
+## 8 - RESOLUÇÃO DE CONFLITOS
+
+#### Conflitos acontecem quando há mais de um programador trabalhando no mesmo código. Quando mais de uma pessoa trabalha no mesmo arquivo, há mais de uma alteração, com isso irá gerar um conflito, pois o git vai querer saber quais mudanças seráo aceitas. E ai dicidinmos se vamos manter todas as alterações ou quais delas que vamos manter. Usando o comando git status vamos perceber se há arquivos conflitados.
+
+## 9 - IGNORANDO ARQUIVOS DO REPOSITÓRIO
+
+#### Para ignorarmos um arquivo, usamos o comando ***touch .gitignore***, ele criará um arquivo com esse nome **.gitignore** e o que for incluso nela será ignorado. Num projeto há muitos arquivos que são por padrão ignorados, e pra isso existe um gerador online [gitignore.io](gitignore.io) que, gera o **.gitignore** de acordo com a linguagem ou IDE que estamos utilizando, é bom pois caso venhamos a esquecer algo, nesse site temos a ceteza que estarão inclusos. Uma boa prática é iniciar o projeto e ja criar o arquivo **.gitignore** para não correr riscos de esquecer algo conforme for sendo construido o projeto.
+    
+## 10 - TRABALHANDO COM REPOSITÓRIOS REMOTOS
+
+#### No GitHub, clicamos em **New Repository**, na sequencia damos um nome a ele, uma descrição, escolha se será público ou privado, e então se queremos o arquivo README no nosso projeto, podemos incluí-lo agora. Se voce está criando o projeto aqui no GitHub e ele não existe localmente, siga esses comandos:
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto32.png"/>
+</p>
+
+#### Caso ja tenha um repositório, siga esses comandos:
+<p align="center">
+  <img alt="foto" title="foto" src="./img/foto33.png"/>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
