@@ -10,10 +10,10 @@
 
 ## 🏁 Cronograma do Curso ⏱
  
-  * 👉 [Lógica de Programação com Typescript](#)
-  * 👉 [HTML5, CSS3 e JavaScript](#)
-  * 👉 [React](#)
-  * 👉 [NodeJs e NestJs](#)
+  * 👉 [Lógica de Programação com Typescript](https://github.com/AlineAlmeida85/Curso-Full-Stack-FIAP-Avanade/tree/main/AoVivo/1%20-%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20Typescript)
+  * 👉 [HTML5, CSS3 e JavaScript](https://github.com/AlineAlmeida85/Curso-Full-Stack-FIAP-Avanade/tree/main/AoVivo/2%20-%20HTML5%2C%20CSS3%20e%20JavaScript)
+  * 👉 [React](https://github.com/AlineAlmeida85/Curso-Full-Stack-FIAP-Avanade/tree/main/AoVivo/3%20-%20React)
+  * 👉 [NodeJs e NestJs](https://github.com/AlineAlmeida85/Curso-Full-Stack-FIAP-Avanade/tree/main/AoVivo/4%20-%20NodeJs%20e%20NestJs)
   * 👉 [Trabalho em grupo](#)
 
 
@@ -48,16 +48,16 @@ ___
   <div>
     <h4></h4><br/>
     ⚫️ <a href="https://github.com/AlineAlmeida85/Curso-Full-Stack-FIAP-Avanade/tree/main/AoVivo/1%20-%20L%C3%B3gica%20de%20Programa%C3%A7%C3%A3o%20Typescript"><strong> ➜ Lógica de Programação Typescript</strong></a> <br/>
-    ⚫️ <a href=""><strong> ➜ HTML5, CSS3 e JavaScript</strong></a><br/>
-    ⚫️ <a href=""><strong> ➜ React</strong></a><br/>
-    ⚫️ <a href=""><strong> ➜ NodeJs e NestJs</strong></a><br/>      
+    ⚫️ <a href="https://github.com/AlineAlmeida85/Curso-Full-Stack-FIAP-Avanade/tree/main/AoVivo/2%20-%20HTML5%2C%20CSS3%20e%20JavaScript"><strong> ➜ HTML5, CSS3 e JavaScript</strong></a><br/>
+    ⚫️ <a href="https://github.com/AlineAlmeida85/Curso-Full-Stack-FIAP-Avanade/tree/main/AoVivo/3%20-%20React"><strong> ➜ React</strong></a><br/>
+    ⚫️ <a href="https://github.com/AlineAlmeida85/Curso-Full-Stack-FIAP-Avanade/tree/main/AoVivo/4%20-%20NodeJs%20e%20NestJs"><strong> ➜ NodeJs e NestJs</strong></a><br/>      
   </div>
 
 ## Menu das Aulas Fiap On
   <div>
     <h4></h4><br/>
     ⚫️ <a href="https://github.com/AlineAlmeida85/Curso-Full-Stack-FIAP-Avanade/tree/main/FiapOn/METODOLOGIAS%20%C3%81GEIS"><strong> ➜ METODOLOGIAS ÁGEIS</strong></a> <br/>
-    ⚫️ <a href=""><strong> ➜ GIT & GitHub</strong></a><br/>
+    ⚫️ <a href="https://github.com/AlineAlmeida85/Curso-Full-Stack-FIAP-Avanade/tree/main/FiapOn/RESPONSIVE%20WEB%20DEVELOPMENT/6%20-%20GIT%20%26%20GitHub"><strong> ➜ GIT & GitHub</strong></a><br/>
     ⚫️ <a href=""><strong> ➜ </strong></a><br/>
     ⚫️ <a href=""><strong> ➜ </strong></a><br/>      
   </div>
