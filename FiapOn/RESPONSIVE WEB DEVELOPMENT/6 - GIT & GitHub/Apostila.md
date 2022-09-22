@@ -1,6 +1,5 @@
-# Apostila
+## **``Git e GitHub``**
 
-## Git e GitHub
 ### Com o GIT instalado em sua máquina, chegou a hora de nos apresentarmos para ele, ou seja, configurar o sistema para ele identificar o desenvolvedor responsável pelas alterações. Para criarmos o nosso primeiro diretório, você deverá criar uma pasta (pode ser no desktop mesmo) e com o botão direito clicar na opção Git Bash Here.
 
 ### No exemplo “Criando uma pasta”, o nome da pasta criada é: Projeto Git. Após clicar em Git Bash Here o nosso terminal se abrirá, e você digitará o primeiro comando: 

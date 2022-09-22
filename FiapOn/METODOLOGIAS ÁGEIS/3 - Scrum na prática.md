@@ -6,15 +6,19 @@
 #### Vimos, no capítulo anterior, a primeira etapa desse ciclo. Agora veremos em detalhes como fazer o planejamento do Sprint que será executado. 
 
 #### Mas antes disso, vamos entender o que é um Sprint. 
-#### Um Sprint é um ciclo timebox para construir o produto definido. Dentro do Sprint você  pode usar o método que quiser para a produção, desde que o padrão de qualidade seja observado e o prazo seja respeitado. 
+
+#### Um Sprint é um ciclo timebox para construir o produto definido. Dentro do Sprint você pode usar o método que quiser para a produção, desde que o padrão de qualidade seja observado e o prazo seja respeitado. 
 
 #### Lembre-se de que as histórias que compõem um Sprint são definidas pelo Product Owner e suas atividades e compromisso com o prazo são de responsabilidade do time. 
+
 #### No Scrum, cada Sprint é um timebox que dura de duas a quatro semanas e sempre deve entregar valor ao cliente. A duração de cada Sprint é definida para cada projeto em comum acordo entre todos os envolvidos e pode variar de duração de acordo com as necessidades.
 
 ``Lembre-se de que o conceito de timebox é que a data final é definitiva, não pode ser prorrogada e nem antecipada sob nenhuma hipótese.``
 
 #### Não existe tamanho recomendado para um Sprint, isso vai depender da quantidade de histórias, do time e do que espera o Product Owner como meta do Sprint. 
+
 #### Os Sprints também podem ter tamanhos variados dentro de um projeto, e esse tamanho varia de acordo com o que for definido entre o cliente e o time. 
+
 #### Embora não existam padrões estabelecidos para o Sprint, podemos ter como orientação inicial para definir o tamanho:
 - Time começando a executar projetos com Scrum deve usar Sprint de 2 semanas para que as adaptações sejam mais rápidas;
 - Primeiros Sprints de um projeto novo devem ser de 2 semanas para minimizar os riscos e adaptar o time ao ambiente do projeto.
@@ -39,6 +43,7 @@
 #### A duração desses eventos deve ser respeitada incondicionalmente por todos os envolvidos no projeto e seu cumprimento deve ser pelo Scrum Master.
 
 #### **Embora o Scrum defina Sprints com tamanhos entre 2 e 4 semanas, caso necessário, você pode fazer um Sprint de uma semana para a execução de ciclos menores de atividades. Mas, não pode ser maior que 4 semanas**.
+
 #### Na reunião de planejamento do Sprint, deve ser definido o que deve ser entregue e em seguida definir como fazer para entregar o trabalho. Vamos analisar em etapas.
 
 
@@ -47,6 +52,7 @@
 #### A **primeira atividade da reunião é definir a meta do Sprint**, ou seja, uma descrição sucinta do que deve ser entregue de valor para o cliente. Essa meta é definida pelo Product Owner e deve ser algo tangível que possa ser avaliado pelo time. Além de tangível, a meta deve ser realista e aceita por todos os envolvidos no planejamento. Em hipótese alguma pode ser imposta.
 
 #### Com base na meta definida, o Product Owner escolhe os itens mais importantes do Product Backlog, que devem ser atualizados, detalhados e quebrados em histórias menores, para que possam ser concluídas dentro do Sprint.
+
 #### Lembre-se de que:
 - Embora o Sprint tenha seu tamanho definido nesse momento, ele pode sofrer mudanças para permitir ao time atingir a meta definida;
 - O Product Backlog pode sofrer repriorizações ou inclusão de novas histórias;
